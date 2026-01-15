@@ -69,4 +69,23 @@ Insight:
       - Tree-based models outperform Logistic Regression by capturing non-linear transaction patterns.
       - XGBoost achieves the best Precision–Recall trade-off, making it suitable for high-risk screening.
 
+### Precision–Recall Trade-off
+
+Insight:
+
+      - Lower thresholds increase fraud recall but raise false positives.
+      - This reflects a real operational trade-off between fraud loss prevention and customer friction.
+
+### Explainability with SHAP
+# Global Feature Importance
+
+Insight:
+       - SHAP highlights which features most strongly influence fraud predictions 
+         and how extreme values push decisions toward fraud or legitimacy.
+
+# Local Explanation (Single Transaction)
+
+Insight:
+      - Each prediction can be decomposed into additive feature contributions, 
+        supporting transparency and auditability in regulated environments.
     
