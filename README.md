@@ -39,13 +39,13 @@ Although the dataset is well known, it is intentionally chosen for the following
   
      - The dataset’s anonymized features (PCA-transformed variables) shift the emphasis away from domain-specific heuristics and toward:
   
-      - handling severe class imbalance
-      - choosing appropriate evaluation metrics
-      - model comparison and threshold optimization
+        - handling severe class imbalance
+        - choosing appropriate evaluation metrics
+        - model comparison and threshold optimization
 
 - Benchmarking and interpretability
   
-      - Using a well-established dataset allows results to be interpreted and compared meaningfully, while still leaving ample room for original modeling decisions,          evaluation strategies, and explanations.
+     - Using a well-established dataset allows results to be interpreted and compared meaningfully, while still leaving ample room for original modeling decisions,          evaluation strategies, and explanations.
 
 Originality in this project comes from modeling choices, evaluation strategy, threshold analysis, and interpretability, not from proprietary data.
 
