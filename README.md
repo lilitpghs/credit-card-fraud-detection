@@ -19,3 +19,18 @@ This project focuses on credit card fraud detection, a real-world machine learni
       - Time, Amount
 
 - Target: Class (1 = fraud, 0 = legitimate)
+
+
+### Why use a well-known dataset?
+
+- This dataset is widely used because it:
+
+- Accurately reflects real-world fraud imbalance
+
+- Forces correct metric selection (PR-AUC, recall)
+
+- Removes domain shortcuts via anonymized features
+
+- Enables focus on methodology and decision logic
+
+Originality in this project comes from modeling choices, evaluation strategy, threshold analysis, and interpretability, not from proprietary data.
