@@ -69,6 +69,10 @@ Insight:
 ![PR Logistic](images/output_34_0.png)
 
 **Insight:**  
-Logistic Regression achieves very high recall across a wide range of thresholds, meaning it is effective at detecting fraudulent transactions. However, precision remains low at default thresholds, indicating a high number of false positives.
 
-This highlights a common challenge in fraud detection: while linear models can identify risky patterns, they often lack the discriminative power needed to reduce false alerts without sacrificing recall. As a result, Logistic Regression serves as a strong baseline but is insufficient as a standalone production model.
+    - Logistic Regression achieves very high recall across a wide range of thresholds, meaning it is effective at detecting fraudulent transactions. 
+      However, precision remains low at default thresholds, indicating a high number of false positives.
+
+    - This highlights a common challenge in fraud detection: while linear models can identify risky patterns, they often lack the discriminative power 
+    needed to reduce false alerts without sacrificing recall. As a result, Logistic Regression serves as a strong baseline but is insufficient 
+    as a standalone production model.
