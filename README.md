@@ -2,7 +2,9 @@
 
 # Overview
 
-This project focuses on credit card fraud detection, a real-world machine learning problem defined by extreme class imbalance, asymmetric error costs and the need for model interpretability. Instead of optimizing for accuracy, the project exemines fraud-appropriate metrics, threshold tuning and explainable models, reflecting how fraud systems are built in production environments.
+This project focuses on building and evaluating machine learning models for credit card fraud detection, a critical real-world problem in finance and cybersecurity characterized by extreme class imbalance and high decision risk.
+
+The goal of the project is not only to achieve strong predictive performance, but also to handle skewed data correctly, evaluate models using appropriate metrics, and provide interpretable explanations for model decisions.
 
 ## Dataset
 
@@ -23,15 +25,22 @@ This project focuses on credit card fraud detection, a real-world machine learni
 
 ### Why use a well-known dataset?
 
-- This dataset is widely used because it:
+Although the dataset is well known, it is intentionally chosen for the following reasons:
 
-- Accurately reflects real-world fraud imbalance
+- Realistic problem structure
+     Fraud represents less than 0.2% of all transactions, closely mirroring real-world fraud detection scenarios.
 
-- Forces correct metric selection (PR-AUC, recall)
+- Industry relevance
+     Credit card fraud detection is a core use case in banking, payments, and cybersecurity, making this dataset highly relevant for applied machine learning roles.
 
-- Removes domain shortcuts via anonymized features
+- Focus on methodology over memorization
+     The dataset’s anonymized features (PCA-transformed variables) shift the emphasis away from domain-specific heuristics and toward:
+      - handling severe class imbalance
+      - choosing appropriate evaluation metrics
+      - model comparison and threshold optimization
 
-- Enables focus on methodology and decision logic
+- Benchmarking and interpretability
+      Using a well-established dataset allows results to be interpreted and compared meaningfully, while still leaving ample room for original modeling decisions,          evaluation strategies, and explanations.
 
 Originality in this project comes from modeling choices, evaluation strategy, threshold analysis, and interpretability, not from proprietary data.
 
