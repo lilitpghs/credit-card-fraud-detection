@@ -39,4 +39,27 @@ Originality in this project comes from modeling choices, evaluation strategy, th
 
 Insight:
 
-    - Fraud accounts for less than 0.2% of transactions, making accuracy misleading. A naive model could achieve >99%           accuracy while detecting no fraud at all.
+    - Fraud accounts for less than 0.2% of transactions, making accuracy misleading.
+    - A naive model could achieve >99% accuracy while detecting no fraud at all.
+
+### Modeling Approach
+
+Pipeline:
+
+1. Exploratory analysis with imbalance focus
+
+2. Stratified train/test split
+
+3. Logistic Regression (baseline, interpretable)
+
+4. Random Forest (non-linear interactions)
+
+5. XGBoost (industry-grade performance)
+
+6. Evaluation using ROC-AUC & PR-AUC
+
+7. Threshold tuning for operational trade-offs
+
+8. Model explainability using SHAP    
+
+    
