@@ -150,6 +150,14 @@ The project is designed to demonstrate the following skills:
 
 ### Local Explanation (Single Transaction)
 
+The waterfall plot explains a single transaction by decomposing the model’s prediction into additive feature contributions:
+
+- The model starts from a baseline prediction (average model output)
+
+- Each feature pushes the prediction toward fraud (red) or toward legitimacy (blue)
+
+- The final position represents the model’s output for this transaction
+
 ![SHAP Waterfall](images/output_66_0.png)
 
 **Insight:**  
@@ -160,6 +168,16 @@ The project is designed to demonstrate the following skills:
       - This level of transparency is critical in financial systems where model decisions must be explainable to auditors, regulators, and risk teams.
 
 ### Local Decision Patterns
+
+The force plot visualizes the same prediction but displays all individual feature contributions:
+
+- Features pushing the prediction higher are shown in red
+
+- Features pushing the prediction lower are shown in blue
+
+- The final prediction results from the balance of all opposing forces
+
+Unlike the waterfall plot, no aggregation is performed, which can make the visualization more detailed but less compact.
 
 ![SHAP Force](images/output_71_0.png)
 
