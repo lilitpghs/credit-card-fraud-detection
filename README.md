@@ -49,12 +49,25 @@ Although the dataset is well known, it is intentionally chosen for the following
 
 Originality in this project comes from modeling choices, evaluation strategy, threshold analysis, and interpretability, not from proprietary data.
 
-### Class Imbalance
+### Project Objectives
 
-Insight:
+The project is designed to demonstrate the following skills:
 
-    - Fraud accounts for less than 0.2% of transactions, making accuracy misleading.
-    - A naive model could achieve >99% accuracy while detecting no fraud at all.
+- Handling highly imbalanced classification problems
+
+- Building and comparing multiple models:
+
+  - Logistic Regression
+
+  - Random Forest
+
+  - XGBoost
+
+- Evaluating models using precision, recall, ROC-AUC, and PR-AUC instead of accuracy
+
+- Performing threshold tuning to reflect real business trade-offs
+
+- Explaining model predictions using SHAP for transparency and trust
 
 ### Modeling Approach
 
