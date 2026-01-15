@@ -66,7 +66,7 @@ Insight:
 
 ### Precision–Recall Trade-off (Logistic Regression)
 
-![PR Logistic](figures/pr_logistic.png)
+![PR Logistic](images/output_34_0.png)
 
 **Insight:**  
 Logistic Regression achieves very high recall across a wide range of thresholds, meaning it is effective at detecting fraudulent transactions. However, precision remains low at default thresholds, indicating a high number of false positives.
