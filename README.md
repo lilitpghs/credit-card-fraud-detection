@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection (Imbalanced Classification)
 
-Overview
+# Overview
 
 This project focuses on credit card fraud detection, a real-world machine learning problem defined by extreme class imbalance, asymmetric error costs and the need for model interpretability. Instead of optimizing for accuracy, the project exemines fraud-appropriate metrics, threshold tuning and explainable models, reflecting how fraud systems are built in production environments.
 
@@ -34,3 +34,9 @@ This project focuses on credit card fraud detection, a real-world machine learni
 - Enables focus on methodology and decision logic
 
 Originality in this project comes from modeling choices, evaluation strategy, threshold analysis, and interpretability, not from proprietary data.
+
+### Class Imbalance
+
+Insight:
+
+    - Fraud accounts for less than 0.2% of transactions, making accuracy misleading. A naive model could achieve >99%           accuracy while detecting no fraud at all.
