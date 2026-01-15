@@ -64,31 +64,11 @@ Insight:
 
 ### Model Comparison
 
-Insight:
+### Precision–Recall Trade-off (Logistic Regression)
 
-      - Tree-based models outperform Logistic Regression by capturing non-linear transaction patterns.
-      - XGBoost achieves the best Precision–Recall trade-off, making it suitable for high-risk screening.
+![PR Logistic](figures/pr_logistic.png)
 
-### Precision–Recall Trade-off
+**Insight:**  
+Logistic Regression achieves very high recall across a wide range of thresholds, meaning it is effective at detecting fraudulent transactions. However, precision remains low at default thresholds, indicating a high number of false positives.
 
-Insight:
-
-      - Lower thresholds increase fraud recall but raise false positives.
-      - This reflects a real operational trade-off between fraud loss prevention and customer friction.
-
-### Explainability with SHAP
-
-**Global Feature Importance**
-
-Insight:
-
-      - SHAP highlights which features most strongly influence fraud predictions 
-        and how extreme values push decisions toward fraud or legitimacy.
-
-**Local Explanation (Single Transaction)**
-
-Insight:
-
-      - Each prediction can be decomposed into additive feature contributions, 
-        supporting transparency and auditability in regulated environments.
-    
+This highlights a common challenge in fraud detection: while linear models can identify risky patterns, they often lack the discriminative power needed to reduce false alerts without sacrificing recall. As a result, Logistic Regression serves as a strong baseline but is insufficient as a standalone production model.
