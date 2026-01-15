@@ -27,15 +27,15 @@ The goal of the project is not only to achieve strong predictive performance, bu
 
 Although the dataset is well known, it is intentionally chosen for the following reasons:
 
-- Realistic problem structure
+1. Realistic problem structure
   
      - Fraud represents less than 0.2% of all transactions, closely mirroring real-world fraud detection scenarios.
 
-- Industry relevance
+2. Industry relevance
   
      - Credit card fraud detection is a core use case in banking, payments, and cybersecurity, making this dataset highly relevant for applied machine learning roles.
 
-- Focus on methodology over memorization
+3. Focus on methodology over memorization
   
      - The dataset’s anonymized features (PCA-transformed variables) shift the emphasis away from domain-specific heuristics and toward:
   
@@ -43,7 +43,7 @@ Although the dataset is well known, it is intentionally chosen for the following
         - choosing appropriate evaluation metrics
         - model comparison and threshold optimization
 
-- Benchmarking and interpretability
+4. Benchmarking and interpretability
   
      - Using a well-established dataset allows results to be interpreted and compared meaningfully, while still leaving ample room for original modeling decisions,          evaluation strategies, and explanations.
 
