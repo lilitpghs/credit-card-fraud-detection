@@ -6,16 +6,16 @@ This project focuses on credit card fraud detection, a real-world machine learni
 
 ## Dataset
 
-Name:[Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+- Name: [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
-Size: 284,807 transactions
+- Size: 284,807 transactions
 
-Fraud Rate: ~0.17%
+- Fraud Rate: ~0.17%
 
-Features:
+- Features:
 
 V1–V28: anonymized PCA components
 
 Time, Amount
 
-Target: Class (1 = fraud, 0 = legitimate)
+- Target: Class (1 = fraud, 0 = legitimate)
