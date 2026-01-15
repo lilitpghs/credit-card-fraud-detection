@@ -219,3 +219,7 @@ Matplotlib
 ### Keywords
 
 Fraud Detection · Imbalanced Classification · Financial Risk Analytics · Machine Learning · XGBoost · Logistic Regression · Random Forest · SHAP · Model Interpretability · Decision Support · Credit Card Transactions
+
+### Author
+
+Lilit Poghosyan — Background in Industrial Engineering, Business Intelligence, and Data Analytics, with a focus on improving decision quality in complex operational systems.
