@@ -204,6 +204,12 @@ SHAP
 
 Matplotlib
 
+### Repository Structure
 
+├── notebooks/
+│   └── credit_card_fraud_detection.ipynb   # Main analysis notebook (static, non-executable)
+├── figures/
+│   └── *.png                               # Saved visualizations (PR curves, SHAP plots, etc.)
+├── README.md                               # Project documentation
 
       
