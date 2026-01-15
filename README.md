@@ -204,12 +204,18 @@ SHAP
 
 Matplotlib
 
-### Repository Structure
+## Repository Structure
 
-├── notebooks/
-│   └── credit_card_fraud_detection.ipynb   # Main analysis notebook (static, non-executable)
-├── figures/
-│   └── *.png                               # Saved visualizations (PR curves, SHAP plots, etc.)
-├── README.md                               # Project documentation
-
+```text
+├── images/
+│   └── *.png                               # Saved visualizations 
+├── README.md             # Project documentation
+├── credit_card_fraud_detection.ipynb   # Main analysis notebook (static, non-executable)
+```
+> **Note:**  
+> The notebook is provided as-is for transparency and methodological review.  
+> Datasets and execution artifacts are not included.
       
+### Keywords
+
+Fraud Detection · Imbalanced Classification · Financial Risk Analytics · Machine Learning · XGBoost · Logistic Regression · Random Forest · SHAP · Model Interpretability · Decision Support · Credit Card Transactions
