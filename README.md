@@ -77,13 +77,14 @@ Insight:
       - This reflects a real operational trade-off between fraud loss prevention and customer friction.
 
 ### Explainability with SHAP
-# Global Feature Importance
+
+Global Feature Importance
 
 Insight:
        - SHAP highlights which features most strongly influence fraud predictions 
          and how extreme values push decisions toward fraud or legitimacy.
 
-# Local Explanation (Single Transaction)
+Local Explanation (Single Transaction)
 
 Insight:
       - Each prediction can be decomposed into additive feature contributions, 
