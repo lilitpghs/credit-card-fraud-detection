@@ -82,11 +82,11 @@ Insight:
 
 Insight:
          - SHAP highlights which features most strongly influence fraud predictions 
-         and how extreme values push decisions toward fraud or legitimacy.
+         - and how extreme values push decisions toward fraud or legitimacy.
 
 **Local Explanation (Single Transaction)**
 
 Insight:
         - Each prediction can be decomposed into additive feature contributions, 
-        supporting transparency and auditability in regulated environments.
+        - supporting transparency and auditability in regulated environments.
     
