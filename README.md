@@ -69,6 +69,7 @@ The project is designed to demonstrate the following skills:
 
 - Explaining model predictions using SHAP for transparency and trust
 
+
 ### Modeling Approach
 
 **Pipeline:**
@@ -168,6 +169,22 @@ The project is designed to demonstrate the following skills:
        providing intuitive insight into how fraud risk accumulates across multiple signals.
 
 
+### Key Takeaway
+
+Rather than treating fraud detection as a purely predictive task, this project frames it as a decision-making problem, where model performance, interpretability, and operational trade-offs must be considered together.
+
+
+### Tools & Technologies
+
+Python, Pandas, NumPy
+
+Scikit-learn
+
+XGBoost
+
+SHAP
+
+Matplotlib
 
 
 
