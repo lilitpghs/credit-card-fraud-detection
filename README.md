@@ -29,15 +29,15 @@ Although the dataset is well known, it is intentionally chosen for the following
 
 1. Realistic problem structure
   
-     - Fraud represents less than 0.2% of all transactions, closely mirroring real-world fraud detection scenarios.
+      Fraud represents less than 0.2% of all transactions, closely mirroring real-world fraud detection scenarios.
 
 2. Industry relevance
   
-     - Credit card fraud detection is a core use case in banking, payments, and cybersecurity, making this dataset highly relevant for applied machine learning roles.
+      Credit card fraud detection is a core use case in banking, payments, and cybersecurity, making this dataset highly relevant for applied machine learning roles.
 
 3. Focus on methodology over memorization
   
-     - The dataset’s anonymized features (PCA-transformed variables) shift the emphasis away from domain-specific heuristics and toward:
+      The dataset’s anonymized features (PCA-transformed variables) shift the emphasis away from domain-specific heuristics and toward:
   
         - handling severe class imbalance
         - choosing appropriate evaluation metrics
@@ -45,7 +45,7 @@ Although the dataset is well known, it is intentionally chosen for the following
 
 4. Benchmarking and interpretability
   
-     - Using a well-established dataset allows results to be interpreted and compared meaningfully, while still leaving ample room for original modeling decisions,          evaluation strategies, and explanations.
+      Using a well-established dataset allows results to be interpreted and compared meaningfully, while still leaving ample room for original modeling decisions,          evaluation strategies, and explanations.
 
 Originality in this project comes from modeling choices, evaluation strategy, threshold analysis, and interpretability, not from proprietary data.
 
