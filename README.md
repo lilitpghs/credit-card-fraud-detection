@@ -44,22 +44,29 @@ Insight:
 
 ### Modeling Approach
 
-Pipeline:
+**Pipeline:**
 
-1. Exploratory analysis with imbalance focus
+**1.** Exploratory analysis with imbalance focus
 
-2. Stratified train/test split
+**2.** Stratified train/test split
 
-3. Logistic Regression (baseline, interpretable)
+**3.** Logistic Regression (baseline, interpretable)
 
-4. Random Forest (non-linear interactions)
+**4.** Random Forest (non-linear interactions)
 
-5. XGBoost (industry-grade performance)
+**5.** XGBoost (industry-grade performance)
 
-6. Evaluation using ROC-AUC & PR-AUC
+**6.** Evaluation using ROC-AUC & PR-AUC
 
-7. Threshold tuning for operational trade-offs
+**7.** Threshold tuning for operational trade-offs
 
-8. Model explainability using SHAP    
+**8.** Model explainability using SHAP    
+
+### Model Comparison
+
+Insight:
+
+      - Tree-based models outperform Logistic Regression by capturing non-linear transaction patterns.
+      - XGBoost achieves the best Precision–Recall trade-off, making it suitable for high-risk screening.
 
     
