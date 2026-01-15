@@ -14,8 +14,8 @@ This project focuses on credit card fraud detection, a real-world machine learni
 
 - Features:
 
-V1–V28: anonymized PCA components
+      - V1–V28: anonymized PCA components
 
-Time, Amount
+      - Time, Amount
 
 - Target: Class (1 = fraud, 0 = legitimate)
