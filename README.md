@@ -76,3 +76,72 @@ Insight:
     - This highlights a common challenge in fraud detection: while linear models can identify risky patterns, they often lack the discriminative power 
     needed to reduce false alerts without sacrificing recall. As a result, Logistic Regression serves as a strong baseline but is insufficient 
     as a standalone production model.
+
+### Feature Importance (Random Forest)
+
+![RF Importance](images/output_47_0.png)
+
+**Insight:**  
+
+      - The Random Forest model identifies a small subset of features—particularly V14, V4, and V10—as dominant drivers of fraud predictions. 
+        These variables correspond to latent transaction patterns rather than surface-level attributes such as transaction amount.
+
+      - This suggests that fraudulent behavior is better characterized by complex feature interactions than by individual transaction magnitudes, 
+       reinforcing the need for non-linear models in fraud detection.
+
+### Precision–Recall Trade-off (Random Forest)
+
+![PR RF](figures/output_50_0.png)
+
+**Insight:**  
+
+      - Compared to Logistic Regression, Random Forest achieves a more favorable precision–recall balance. Precision improves substantially at moderate 
+        thresholds while recall remains relatively high.
+      - This indicates that tree-based models are better suited to capture non-linear interactions that distinguish fraudulent from legitimate transactions, reducing         false positives without severely compromising fraud detection rates.
+
+### Global Model Explainability (SHAP)
+
+![SHAP Summary](images/output_60_0.png)
+
+**Insight:**  
+
+      - The SHAP summary plot reveals that a small number of features—most notably V14, V4, and V12—dominate the model’s predictions. 
+        The color gradients show that  extreme values in these features push predictions strongly toward fraud or legitimacy.
+
+      - This asymmetric behavior highlights how fraud detection depends on specific combinations of latent transaction characteristics rather 
+        than uniform linear effects.
+
+### Average Feature Impact (SHAP)
+
+![SHAP Bar](images/output_61_0png)
+
+**Insight:**  
+
+      - The mean absolute SHAP values confirm that V14 and V4 consistently exert the largest influence on model output across transactions. 
+        This consistency indicates that the model’s decision logic is stable rather than driven by noise or rare edge cases.
+
+### Local Explanation (Single Transaction)
+
+![SHAP Waterfall](images/output_66_0.png)
+
+**Insight:**  
+
+      - The SHAP waterfall plot decomposes the prediction for a single transaction into individual feature contributions. 
+        Features such as V14 and V11 significantly push the prediction toward fraud, while others mitigate risk.
+
+      - This level of transparency is critical in financial systems where model decisions must be explainable to auditors, regulators, and risk teams.
+
+### Local Decision Patterns
+
+![SHAP Force](images/output_71_0.png)
+
+**Insight:**  
+
+     - Local explanation plots further illustrate how combinations of feature values jointly influence predictions, 
+       providing intuitive insight into how fraud risk accumulates across multiple signals.
+
+
+
+
+
+      
