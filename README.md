@@ -95,9 +95,11 @@ This project demonstrates the ability to:
 This analysis produced several consistent and practically relevant findings:
 
 1. Accuracy is not a meaningful metric under extreme imbalance
+
 Models with high accuracy can still perform poorly in fraud detection. Precision–Recall analysis proved essential for understanding true model behavior.
 
 2. Linear models detect risk but over-flag transactions
+
 Logistic Regression achieves very high recall but low precision, resulting in excessive false positives. This makes it a strong baseline but insufficient as a standalone production model.
 
 3. Tree-based models materially reduce false positives
