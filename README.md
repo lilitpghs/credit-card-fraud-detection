@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection (Imbalanced Classification)
 
-# Overview
+## Overview
 
 This project focuses on building and evaluating machine learning models for credit card fraud detection, a critical real-world problem in finance and cybersecurity characterized by extreme class imbalance and asymmetric decision costs.
 
@@ -23,7 +23,7 @@ Rather than optimizing for accuracy alone, the project treats fraud detection as
 - Target: Class (1 = fraud, 0 = legitimate)
 
 
-### Why use a well-known dataset?
+## Why use a well-known dataset?
 
 Although the dataset is widely used, it was selected deliberately for the following reasons:
 
@@ -50,7 +50,7 @@ Although the dataset is widely used, it was selected deliberately for the follow
 
 Originality in this project lies in end-to-end decision framing, not proprietary data.
 
-### Project Objectives
+## Project Objectives
 
 This project demonstrates the ability to:
 
@@ -70,7 +70,7 @@ This project demonstrates the ability to:
 
 - Explain model behavior using SHAP at both global and local levels
 
-### Modeling Approach
+## Modeling Approach
 
 **Pipeline:**
 
@@ -90,7 +90,7 @@ This project demonstrates the ability to:
 
 **8.** Model explainability using SHAP 
 
-#### Key Results
+## Key Results
 
 This analysis produced several consistent and practically relevant findings:
 
@@ -120,7 +120,7 @@ SHAP analysis reveals stable global importance patterns and provides transparent
     
 Optimal model behavior depends on explicitly tuning decision thresholds to balance fraud detection rates against false alert volume.
 
-### Model Insights & Visual Analysis
+## Model Insights & Visual Analysis
 
 ### Precision–Recall Trade-off (Logistic Regression)
 
@@ -196,13 +196,13 @@ Unlike the waterfall plot, no aggregation is performed, which can make the visua
 
      - Force plots visualize how multiple features jointly push predictions toward fraud or legitimacy, offering intuitive insight into cumulative risk formation.
 
-### Key Takeaway
+## Key Takeaway
 
 Fraud detection is not merely a prediction task. It is a cost-sensitive decision problem where evaluation metrics, thresholds, and explainability matter as much as model accuracy.
 
 This project demonstrates how combining robust models with careful evaluation and transparent explanations leads to fraud detection systems that are not only effective, but also trustworthy and operationally viable.
 
-### Tools & Technologies
+## Tools & Technologies
 
 - Python, Pandas, NumPy
 
@@ -226,10 +226,10 @@ This project demonstrates how combining robust models with careful evaluation an
 > The notebook is provided as-is for transparency and methodological review.  
 > Datasets and execution artifacts are not included.
       
-### Keywords
+## Keywords
 
 Fraud Detection · Imbalanced Classification · Financial Risk Analytics · Machine Learning · XGBoost · Logistic Regression · Random Forest · SHAP · Model Interpretability · Decision Support · Credit Card Transactions
 
-### Author
+## Author
 
 Lilit Poghosyan — Background in Industrial Engineering, Business Intelligence, and Data Analytics, with a focus on improving decision quality in complex operational systems.
