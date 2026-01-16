@@ -104,19 +104,19 @@ Logistic Regression achieves very high recall but low precision, resulting in ex
    
 Random Forest and XGBoost achieve a more favorable precision–recall balance, maintaining strong fraud detection while significantly improving precision.
 
-5. Fraud signal concentrates in a small subset of features
+4. Fraud signal concentrates in a small subset of features
    
 Across feature importance and SHAP analyses, a small number of latent variables—most notably V14, V4, V10, and V12—consistently dominate predictions. This indicates stable, non-random fraud patterns.
 
-7. Transaction amount is not a primary fraud driver
+5. Transaction amount is not a primary fraud driver
    
 Fraudulent behavior is better characterized by latent behavioral patterns than by transaction size alone.
 
-9. Model decisions are explainable at global and local levels
+6. Model decisions are explainable at global and local levels
     
 SHAP analysis reveals stable global importance patterns and provides transparent, transaction-level explanations suitable for audit and regulatory contexts.
 
-11. Threshold selection defines operational performance
+7. Threshold selection defines operational performance
     
 Optimal model behavior depends on explicitly tuning decision thresholds to balance fraud detection rates against false alert volume.
 
