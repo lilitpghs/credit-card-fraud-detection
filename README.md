@@ -94,31 +94,31 @@ This project demonstrates the ability to:
 
 This analysis produced several consistent and practically relevant findings:
 
-1. Accuracy is not a meaningful metric under extreme imbalance
+**1.** Accuracy is not a meaningful metric under extreme imbalance
 
 Models with high accuracy can still perform poorly in fraud detection. Precision–Recall analysis proved essential for understanding true model behavior.
 
-2. Linear models detect risk but over-flag transactions
+**2.** Linear models detect risk but over-flag transactions
 
 Logistic Regression achieves very high recall but low precision, resulting in excessive false positives. This makes it a strong baseline but insufficient as a standalone production model.
 
-3. Tree-based models materially reduce false positives
+**3.** Tree-based models materially reduce false positives
    
 Random Forest and XGBoost achieve a more favorable precision–recall balance, maintaining strong fraud detection while significantly improving precision.
 
-4. Fraud signal concentrates in a small subset of features
+**4.** Fraud signal concentrates in a small subset of features
    
 Across feature importance and SHAP analyses, a small number of latent variables—most notably V14, V4, V10, and V12—consistently dominate predictions. This indicates stable, non-random fraud patterns.
 
-5. Transaction amount is not a primary fraud driver
+**5.** Transaction amount is not a primary fraud driver
    
 Fraudulent behavior is better characterized by latent behavioral patterns than by transaction size alone.
 
-6. Model decisions are explainable at global and local levels
+**6.** Model decisions are explainable at global and local levels
     
 SHAP analysis reveals stable global importance patterns and provides transparent, transaction-level explanations suitable for audit and regulatory contexts.
 
-7. Threshold selection defines operational performance
+**7.** Threshold selection defines operational performance
     
 Optimal model behavior depends on explicitly tuning decision thresholds to balance fraud detection rates against false alert volume.
 
@@ -142,7 +142,7 @@ Optimal model behavior depends on explicitly tuning decision thresholds to balan
 
 ### Precision–Recall Trade-off (Random Forest)
 
-![PR RF](figures/output_50_0.png)
+![PR RF](images/output_50_0.png)
 
 **Insight:**  
 
@@ -158,7 +158,7 @@ Optimal model behavior depends on explicitly tuning decision thresholds to balan
       
 ### Average Feature Impact (SHAP)
 
-![SHAP Bar](images/output_61_0png)
+![SHAP Bar](images/output_61_0.png)
 
 **Insight:**  
 
